@@ -51,6 +51,7 @@ public class JugadoresApoyo {
         }
     }
     
+    
 
     //Función para verificar si ya existe un nombre 
     public jugadores nombreUnico(String nombre){

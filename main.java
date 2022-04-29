@@ -44,17 +44,8 @@ public class main {
                     break;
                 case 4:
                     System.out.println("---Jugar---");
-                    System.out.println("ingrese numero 1: ");
-                    String a=leer.next();
-                    System.out.println("ingrese numero 2: ");
-                    String b=leer.next();
-                    System.out.println("ingrese numero 3: ");
-                    String c=leer.next();
-                    System.out.println("ingrese numero 4: ");
-                    String d=leer.next();
-                    
-                    j.dd(a, b, c, d);
-                    
+                    j.game();
+
                     break;
 
                 case 0:
