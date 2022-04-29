@@ -44,8 +44,8 @@ public class JugadoresApoyo {
     
     //Función para imprimir lista completa
     public void imprimirTodos(){
-        for(jugadores animal: jugadoresLista){
-            animal.imprimir();
+        for(jugadores jugador: jugadoresLista){
+            jugador.imprimir();
         }
     }
     
