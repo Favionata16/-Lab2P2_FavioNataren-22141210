@@ -13,17 +13,18 @@ public class jugadores {
 
     //Atributos
     String nombre;
+    int victorias;
 
     //Constructor
-    public jugadores(String nombre) {
+    public jugadores(String nombre, int victorias) {
         this.nombre = nombre;
-
+        this.victorias=victorias;
     }
 
     //Funciones
     //Función para imprimir los atributos
     public void imprimir() {
-        System.out.println("[Nombre: " + nombre + "]");
+        System.out.println("[Nombre: " + nombre + " Victorias: " + victorias+"]");
     }
 
 }

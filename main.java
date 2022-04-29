@@ -15,18 +15,19 @@ public class main {
 
     public static void main(String[] args) {
         JugadoresApoyo proceso = new JugadoresApoyo();
+        juego j = new juego();
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
-
+        j.numRandom();
         int opcion;
 
         do {
-            System.out.println("\n---M E N Ú---");
-            System.out.println("0. Salir\n"
-                    + "1. Crear Jugador\n"
-                    + "2. Listar Jugador Por Posición\n"
-                    + "3. Listar Jugadores\n"
-                    + "4. Jugar");
-            System.out.print("Seleccione una opción: ");
+            System.out.println("\n---M E N Ú---"
+                    + "\n0. Salir"
+                    + "\n1. Crear Jugador"
+                    + "\n2. Listar Jugador Por Posición"
+                    + "\n3. Listar Jugadores"
+                    + "\n4. Jugar"
+                    + "\nSeleccione una opción: ");
             opcion = leer.nextInt();
             switch (opcion) {
                 case 1:
@@ -43,7 +44,17 @@ public class main {
                     break;
                 case 4:
                     System.out.println("---Jugar---");
-
+                    System.out.println("ingrese numero 1: ");
+                    String a=leer.next();
+                    System.out.println("ingrese numero 2: ");
+                    String b=leer.next();
+                    System.out.println("ingrese numero 3: ");
+                    String c=leer.next();
+                    System.out.println("ingrese numero 4: ");
+                    String d=leer.next();
+                    
+                    j.dd(a, b, c, d);
+                    
                     break;
 
                 case 0:

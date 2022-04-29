@@ -18,7 +18,7 @@ public class JugadoresApoyo {
     
     //Constructor
     public JugadoresApoyo(){
-        jugadoresLista.add(new jugadores("Pion"));
+        jugadoresLista.add(new jugadores("Pion",0));
     }
     
     
@@ -30,7 +30,7 @@ public class JugadoresApoyo {
         String nombreCient = leer.next();
         if (nombreUnico(nombreCient)==null){
             
-            jugadoresLista.add(new jugadores(nombreCient));
+            jugadoresLista.add(new jugadores(nombreCient,0));
         }else{
             System.out.println("El nombre científico ingresado no es único. No se puede registrar");
         }
@@ -39,7 +39,9 @@ public class JugadoresApoyo {
     
     //Función para imprimir todos los datos de los jugadores
     public void imprimirPosicion(){
-
+        System.out.print("La lista tiene "+jugadoresLista.size()+" posiciones. Ingrese la posición a imprimir: ");
+        int posicion = leer.nextInt();
+        jugadoresLista.get(posicion).imprimir();
     }
     
     //Función para imprimir lista completa
