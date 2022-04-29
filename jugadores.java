@@ -21,6 +21,24 @@ public class jugadores {
         this.victorias=victorias;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getVictorias() {
+        return victorias;
+    }
+
+    public void setVictorias(int victorias) {
+        this.victorias = victorias;
+    }
+    
+    
+
     //Funciones
     //Función para imprimir los atributos
     public void imprimir() {

@@ -21,7 +21,7 @@ public class main {
         int opcion;
 
         do {
-            System.out.println("\n---M E N Ú---"
+            System.out.println("\n---Menu---"
                     + "\n0. Salir"
                     + "\n1. Crear Jugador"
                     + "\n2. Listar Jugador Por Posición"

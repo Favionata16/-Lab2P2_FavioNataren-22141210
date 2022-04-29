@@ -39,7 +39,6 @@ public class juego {
         String numd = Integer.toString(d);
         
         numero = Integer.parseInt(numa + numb + numc + numd);
-        System.out.println(a+"-"+b+"-"+c+"-"+d);
         
         gg.add(numa);
         gg.add(numb);

@@ -18,11 +18,8 @@ public class JugadoresApoyo {
     
     //Constructor
     public JugadoresApoyo(){
-        jugadoresLista.add(new jugadores("Pion",0));
     }
     
-    
-
     
     //Función para registrar un nuevo jugador
     public void registrar(){
@@ -50,9 +47,7 @@ public class JugadoresApoyo {
             jugador.imprimir();
         }
     }
-    
-    
-
+        
     //Función para verificar si ya existe un nombre 
     public jugadores nombreUnico(String nombre){
         for(jugadores jugador: jugadoresLista){
